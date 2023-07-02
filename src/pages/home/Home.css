@@ -1,0 +1,28 @@
+.image-wrapper {
+    height: 100px; /* Set the height according to your needs */
+    transition: all 0.3s ease-in-out;
+  }
+  .main{
+    font-family: 'Fjalla One', sans-serif;
+
+color: rgb(74, 75, 124)
+  }
+  .main-text{
+    width: 50%;
+  }
+  .main-text-title-p{
+    font-size: 18px;
+  line-height: 140px;
+  }
+.main-text-title{
+  font-size: 100px;
+line-height: 140px;
+}
+  .image-wrapper.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50%;
+    z-index: 999;
+  }
+  
