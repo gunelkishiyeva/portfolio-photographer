@@ -1,28 +1,124 @@
-.image-wrapper {
-    height: 100px; /* Set the height according to your needs */
-    transition: all 0.3s ease-in-out;
-  }
-  .main{
-    font-family: 'Fjalla One', sans-serif;
-
-color: rgb(74, 75, 124)
-  }
-  .main-text{
-    width: 50%;
-  }
-  .main-text-title-p{
-    font-size: 18px;
-  line-height: 140px;
-  }
-.main-text-title{
-  font-size: 100px;
-line-height: 140px;
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto:wght@400;500;700;900&display=swap');
+.home{
+  background-color: white;
 }
-  .image-wrapper.fixed {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 50%;
-    z-index: 999;
-  }
-  
+.main{
+
+
+}
+.introduce{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.title {
+  font-family: Roboto, sans-serif;
+  font-size: 65px;
+  font-weight: 500;
+  line-height: 71.5px;
+  color: rgb(33, 33, 33);
+}
+.aboutText{
+  flex: 1;
+  max-width: 500px; 
+  padding: 10px;
+  padding: 20px;
+}
+.picture{
+  flex: 1;
+  max-width: 500px; 
+  padding: 10px;}
+.title-text{
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+  color: rgb(77, 77, 77);
+}
+
+.learn-more{
+   width: 130px;
+   height: 48px;
+   border-radius: 4px;
+   border: none;
+   background-color:#212121;
+   font-family: Roboto, sans-serif;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 24px;
+   color: rgb(255, 255, 255);
+   padding: 12px 24px;
+}
+
+.about-me{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: #212121;
+}
+.aboutmetitle{
+  font-family: Roboto, sans-serif;
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 28.6px;
+}
+.aboutmetitletext{
+  font-family: Roboto, sans-serif;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 39.6px;
+  color:rgb(33, 33, 33);
+}
+
+.aboutmetextsection{
+  flex: 1;
+  max-width: 500px; 
+  padding: 10px;
+  padding: 20px;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+  color:rgb(77, 77, 77)
+}
+.aboutmesectionpic{
+  flex: 1;
+  max-width: 500px; 
+  padding: 10px;}
+
+  /* Assuming you have already defined styles for other classes used in the component */
+
+.elementor-element {
+  /* Your styles for the outermost div with class "elementor-element" */
+}
+
+.elementor-widget-container {
+  /* Your styles for the div with class "elementor-widget-container" */
+}
+
+.elementor-divider {
+  width: 100%; /* Set the width of the divider */
+  text-align: center; /* Center the divider horizontally */
+}
+
+.elementor-divider-separator {
+  display: inline-block;
+  width: 30%; /* Set the width of the separator */
+  border-top: 2px solid #5E45CE; /* Set the color and thickness of the separator */
+  margin: 10px 0; /* Add some vertical spacing above and below the separator */
+}
+.service-block{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:row;
+}
+.services-blocks{
+  width: 33%;
+}
+.services-block-title{
+  font-family: Roboto, sans-serif;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 28.6px;
+}

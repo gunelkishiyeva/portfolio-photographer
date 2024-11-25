@@ -11,7 +11,7 @@ import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import logo from '../../img/logo.png';
 
-const pages = ['Home', 'About', 'Services', 'Portfolio', 'Contact'];
+const pages = ['Home', 'About', 'Portfolio', 'Contact'];
 
 function Navbar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -24,9 +24,9 @@ function Navbar() {
   };
 
   return (
-    <AppBar position="static"  sx={{ backgroundColor: 'transparent' }}>
+    <AppBar position="static"  sx={{ backgroundColor: '#FFFDF9' }}>
     
-      <Container maxWidth="xl">
+      <Container maxWidth="x1">
         <Toolbar disableGutters>
           
           <img  variant="h6"
@@ -113,10 +113,12 @@ function Navbar() {
             ))}
           </Box>
 
-       
+          <button className='learn-more'>Hire me</button>
         
         </Toolbar>
+        
       </Container>
+      
     </AppBar>
   );
 }

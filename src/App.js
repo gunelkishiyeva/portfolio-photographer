@@ -1,4 +1,5 @@
 import './App.css';
+import '@fortawesome/fontawesome-free/css/all.css';
 import Home from './pages/home/Home';
 function App() {
   return (
